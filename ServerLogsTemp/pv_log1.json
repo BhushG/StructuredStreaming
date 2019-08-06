@@ -1,0 +1,3 @@
+{"timestamp":"20:06:2019 19:40:24", "CustomerId" : "1007_CId","EventType": { "ProductView": {"ProductId":"125_PId","Price": 666.0}}, "Source" : "www.filpkart.mobile.com"}
+{"timestamp":"20:06:2019 20:23:42", "CustomerId" : "1010_CId","EventType": { "ProductView": {"ProductId":"114_PId","Price": 396.0}}, "Source" : "www.filpkart.tablet.com"}
+{"timestamp":"20:06:2019 18:58:17", "CustomerId" : "1020_CId","EventType": { "ProductView": {"ProductId":"140_PId","Price": 956.0}}, "Source" : "www.filpkart.tablet.com"}
