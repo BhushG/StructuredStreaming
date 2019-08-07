@@ -83,7 +83,7 @@ object SessionizeCartItems
       }
 
 
-    //val query = sessionUpdates.writeStream.outputMode(OutputMode.Update()).format("console").start()
+    val query = sessionUpdates.writeStream.outputMode(OutputMode.Update()).format("console").start()
 
 
 
@@ -133,7 +133,7 @@ object SessionizeCartItems
     val query2 = cartUpdates.writeStream.outputMode(OutputMode.Update()).format("console").start()
 
 
-    //query.awaitTermination();
+    query.awaitTermination();
     query2.awaitTermination();
     query3.awaitTermination();
 
